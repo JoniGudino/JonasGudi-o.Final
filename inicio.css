@@ -90,3 +90,23 @@ footer {
     text-decoration: underline;
 }
 
+@media(max-width: 500px){
+
+    header{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo-contenedor{
+        display: flex;
+        margin: 0px;
+        align-items: center;
+    }
+
+    .logo{
+        margin: 0px;
+    }
+
+}
+
