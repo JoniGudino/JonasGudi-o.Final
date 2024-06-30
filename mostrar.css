@@ -29,6 +29,7 @@ nav{
     color: white;
     margin-bottom: 20px;
     text-decoration: none;
+    width: 100%;
 }
 
 .link1:hover{
@@ -47,6 +48,7 @@ nav{
     padding-bottom: -20px;
     text-decoration: none;
     margin-bottom: 20px;
+    width: 100%;
 
 
 
@@ -157,4 +159,36 @@ input[type="date"]:focus {
 #btnmodificar button:hover {
     background-color: #8d6e63;
     transition: 1s;
+}
+
+
+@media(max-width : 500px){
+    header{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    img{
+    margin: 0px;    
+    }
+
+    .formodificar{
+        display: flex;
+        margin: auto;
+        margin-top: 20px;
+      
+
+    }
+
+    header nav{
+        margin: auto;
+        margin-top: 15px;
+    }
+
+ 
+    
+
+
 }
