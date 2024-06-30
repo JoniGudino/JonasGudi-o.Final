@@ -162,6 +162,34 @@ button:hover {
     transition: 1s;
 }
 
+@media(max-width : 500px){
+
+    header{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    img{
+    margin: 0px;    
+    }
+
+    .formulario{
+        display: flex;
+        margin: auto;
+        margin-top: 20px;
+      
+
+    }
+
+    header nav{
+        margin: auto;
+        margin-top: 15px;
+    }
+
+}
+
 
 
 
