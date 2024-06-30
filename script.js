@@ -51,24 +51,27 @@ fecha: document.getElementById("Fecha").value
 
 //Eliminar Productos 
 function Borrar(Idcod){
-    fetch(api, {
-    method: 'DELETE',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-    idcod: Idcod  
-    })
-    })
-    .then(response => response.text())
-    .then(function (respuesta){
-        if (respuesta == "OK"){
-            alert ("Producto Eliminado")
-        }
-        else {
-            alert (respuesta)
-        }
-    
-    })
-    .catch(error => console.error('Error:', error));
+    if(confirm("¿Quieres eliminar el producto?")){
+        fetch(api, {
+            method: 'DELETE',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+            idcod: Idcod  
+            })
+            })
+            .then(response => response.text())
+            .then(function (respuesta){
+                if (respuesta == "OK"){
+                    alert ("Producto Eliminado")
+                }
+                else {
+                    alert (respuesta)
+                }
+            
+            })
+            .catch(error => console.error('Error:', error));
+    }
+   
     }
     
 
