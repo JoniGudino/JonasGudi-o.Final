@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar Productos</title>
+    <link rel="shortcut icon" href="Logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="modificar.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Permitido Tentaciones</h1>
+        <img src="Logo.jpeg" alt="">
+        <nav> 
+            <a href="AgregarProducto.html" class="link1">Agregar Productos</a> 
+            <a href="MostrarProductos.html" class="link2">Mostrar Productos</a>
+        </nav>     
+    </header>
+
+<div class="ObtenerProductos" id="Tablaproductos">
+    <table>
+       <th>
+        <tr>
+            <td>
+            IdCod
+            </td>
+            <td>
+                Titulo
+            </td>
+            <td>
+                Precio ARS
+            </td>
+            <td>
+                Precio U$D
+            </td>
+            <td>
+                Fecha
+            </td>
+        </tr>
+       </th>
+       <tbody id="identificador"></tbody>
+    </table>
+</div>
+
+<div class="formodificar">
+    <form action="javascript:none" id="formMod" style="display: none;">
+        <h1>MODIFICAR PRODUCTO</h1>
+        <h2>Titulo</h2>
+        <input  id = "Title" type="text">
+        <h2>Precio Peso</h2>
+        <input id = "PrecioenPesos" type="text">
+        <h2>Precio Dolar</h2>
+        <input id = "PrecioenDolares" type="text">
+        <h2>Fecha</h2>
+        <input id = "FechadeModificacion" type="date">
+         <div id="btnmodificar"></div>
+    </form>
+
+</div>
+
+
+
+
+    <footer>
+        <div class="redes">
+
+            <nav >
+                <a href="https://www.instagram.com/permitido_tentaciones/" class="insta">Instragram</a>
+                <a href="https://www.facebook.com/profile.php?id=100095029086355" class="facebook">Facebook</a>
+            </nav>
+            
+        </div>
+    </footer>
+
+    
+
+
+<script src="script.js"></script>
+</body>
+</html>

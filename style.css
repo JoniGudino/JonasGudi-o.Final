@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: rgb(180, 50, 50);
+    padding-bottom: 3px;
+    align-items: center;
+
+
+  
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+nav{
+ display: flex;
+ margin-left: 1100px;
+}
+
+.link1{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 25px;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.link1:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+.link2{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 25px;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    padding-bottom: -20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+
+
+
+}
+
+.link2:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+img{
+    display:flex;
+    width: 150px;
+    margin-left: 600px;
+    border-radius: 100px;
+ 
+}
+
+.ObtenerProductos{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+
+td {
+    border: 1px solid rgb(180, 50, 50);
+}
+
+footer{
+    background-color: rgb(180, 50, 50);
+    margin-top: 185px;
+    padding-top:  50px;
+   
+}
+
+.insta{
+    display: flex;
+    color: black;
+
+}
+.facebook{
+    color: black
+}
+
+.redes nav{
+    display:inline;
+    margin-left: 100px;
+}
+
+
+.formulario {
+    display: flex;
+    background-color: rgb(180, 50, 50); 
+    border: 1px solid #d4c2a4; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    width: 100%; 
+    max-width: 300px; 
+    margin-left: 500px;
+    margin-top: 20px;
+    
+}
+
+
+form h1 {
+    color: white; 
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+
+form h2 {
+    color:white; 
+    margin-bottom: 8px; 
+}
+
+
+input[type="text"],
+input[type="date"] {
+    width: calc(100% - 20px); 
+    padding: 10px; 
+    margin-bottom: 20px;
+    border: 1px solid white; 
+    border-radius: 5px; 
+    background-color: white; 
+    color: black; 
+}
+
+
+input[type="text"]:focus,
+input[type="date"]:focus {
+    border-color: #a1887f; 
+    outline: none; 
+}
+
+button {
+    width: 100%; 
+    padding: 10px; 
+    background-color: #a1887f; 
+    border: none; 
+    border-radius: 5px; 
+    color: white; 
+    font-size: 16px; 
+    cursor: pointer; 
+}
+
+
+button:hover {
+    background-color: black; 
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
